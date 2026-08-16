@@ -1,0 +1,14 @@
+{
+  // Configuration for markdownlint-cli2. See https://github.com/DavidAnson/markdownlint
+  "config": {
+    "default": true,
+    // The README intentionally repeats a top-level heading for each language section.
+    "MD025": false,
+    // Prose documentation is not wrapped at a fixed column.
+    "MD013": false,
+    // The greeting headings intentionally end with sentence punctuation.
+    "MD026": false
+  },
+  "globs": ["**/*.md"],
+  "ignores": ["node_modules"]
+}

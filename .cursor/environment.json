@@ -1,0 +1,17 @@
+{
+  "name": "JAISBuild Info",
+  "install": "npm ci",
+  "terminals": [
+    {
+      "name": "readme-preview",
+      "command": "npm run dev",
+      "description": "Live preview server that renders the repository's markdown (README) at http://localhost:3000. Run `npm run lint` to check markdown style."
+    }
+  ],
+  "ports": [
+    {
+      "name": "readme-preview",
+      "port": 3000
+    }
+  ]
+}

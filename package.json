@@ -1,0 +1,18 @@
+{
+  "name": "jaisbuild-info",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Documentation site for the JAISBuild Info repository, with markdown linting and a live README preview server.",
+  "type": "module",
+  "scripts": {
+    "lint": "markdownlint-cli2 \"**/*.md\"",
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "^0.23.2"
+  },
+  "dependencies": {
+    "markdown-it": "^15.0.0"
+  }
+}
